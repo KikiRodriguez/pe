@@ -198,3 +198,13 @@
         align-items: flex-start;
         padding: 0px 0px 40px 0px;
 }
+
+.floatante {
+  right !important;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  transition: all 300ms ease 0ms;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  z-index: 99;
+}
